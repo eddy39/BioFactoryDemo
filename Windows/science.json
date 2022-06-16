@@ -1,0 +1,37 @@
+{
+    "Qe":
+    {
+        "description":"test description Qe",
+        "type":"",
+        "Cost":
+        {
+            "A": 10, "B": 10
+        },
+        "ActionDict":
+        {
+            "AddRecipe":
+            {
+                "type": "product", "BuildTime": 5, "Input": {"F": 3,"A": 2}, "Output": {"Q":10}
+            }
+        }
+        
+    },
+    "Qf":
+    {
+        "description":"test description Qf",
+        "type":"",
+        "Cost":
+        {
+            "A": 5, "B": 2
+        },
+        "ActionDict":
+        {
+            "AddRecipe":
+            {
+                "type": "product", "BuildTime": 5, "Input": {"F": 1,"A": 1}, "Output": {"Q":20}
+            }
+        }
+        
+    } 
+    
+}

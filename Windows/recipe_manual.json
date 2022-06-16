@@ -1,0 +1,8 @@
+{
+"A": {"type": "resource", "BuildTime": 0, "Input": {}, "Output": {}}
+, "B": {"type": "resource", "BuildTime": 0, "Input": {}, "Output": {}}
+, "C": {"type": "resource", "BuildTime": 0, "Input": {}, "Output": {}}
+, "D": {"type": "product", "BuildTime": 3, "Output": {"D": 2}, "Input": {"A": 3}}
+, "E": {"type": "product", "BuildTime": 1, "Output": {"E": 1}, "Input": {"B": 1}}
+, "F": {"type": "product", "BuildTime": 5, "Output": {"F": 1}, "Input": {"E": 5}}
+}
